@@ -53,13 +53,13 @@ Below is a step-by-step walkthrough of the physical system operation during a li
    ![Entering Character T](images/step3_input_t.jpg)
    
 4. **Entering the Remaining Characters:** The player rotates the DIP switches to input characters for the next slots, pressing **`INT0`** to advance the cursor until all 4 positions are filled.
-   ![Full Input Formed](images/step4_input_all.jpg)
+   ![Full Input Formed](images/step4_input_all_letter.jpg)
 
 ### Phase 2: Word Validation & Feedback Logic
 5. **Submitting the Guess:** The player presses the **`INT1` button** to execute the validation routine. The system evaluates the input against the hidden word **"TEST"**:
    * If a character is partially correct (exists in the word but wrong spot), a **Yellow LED** lights up.
    * If a character is completely correct and in the right spot, a **Green LED** lights up.
-   ![Validation Feedback](images/step5_validate_t.jpg)
+   ![Validation Feedback](images/step5_validate.jpg)
 
 6. **Winning Condition (Puzzle Solved):** Once the player correctly guesses all characters in their exact positions (**"T", "E", "S", "T"**), all **4 Green LEDs** illuminate simultaneously. The system automatically shifts and loads the next hidden vocabulary word (e.g., **"PLAY"**) from Flash memory to start a new game.
    ![Winning State](images/step6_correct_all.jpg)
