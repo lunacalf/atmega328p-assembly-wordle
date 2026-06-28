@@ -49,7 +49,7 @@ Below is a step-by-step walkthrough of the physical system operation during a li
 2. **Entering the 1st Character ('A'):** The player configures the 5-bit DIP switch to `00000` (representing 'A'). Pressing the **`INT0` button** registers the letter 'A' into the first digit position.
    ![Entering Character A](images/step2_input_a.jpg)
 
-3. **Entering the 2nd Character ('T'):** The player rotates the DIP switch to configuration `10011` (representing 'T') and presses the **`INT0` button** to register 'T' into the second digit position[cite: 723].
+3. **Entering the 2nd Character ('T'):** The player rotates the DIP switch to configuration `10011` (representing 'T') and presses the **`INT0` button** to register 'T' into the second digit position.
    ![Entering Character T](images/step3_input_t.jpg)
    
 4. **Entering the Remaining Characters:** The player rotates the DIP switches to input characters for the next slots, pressing **`INT0`** to advance the cursor until all 4 positions are filled.
