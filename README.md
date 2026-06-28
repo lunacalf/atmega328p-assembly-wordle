@@ -62,4 +62,5 @@ Below is a step-by-step walkthrough of the physical system operation during a li
    ![Validation Feedback](images/step5_validate.jpg)
 
 6. **Winning Condition (Puzzle Solved):** Once the player correctly guesses all characters in their exact positions (**"T", "E", "S", "T"**), all **4 Green LEDs** illuminate simultaneously. The system automatically shifts and loads the next hidden vocabulary word (e.g., **"PLAY"**) from Flash memory to start a new game.
+   
    ![Winning State](images/step6_correct_all.jpg)
